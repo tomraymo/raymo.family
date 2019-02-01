@@ -3,7 +3,7 @@ title: "The Family Bible"
 date: 2019-02-01
 layout: post
 ---
-In genealogy, primary sources are prized. These are documents and records that were created at or near the time of the event recorded, by people who were directly involved with the event. For example, a recording of a birth in a contemporary letter written by one of the parents carries far more evidentiary weight than the recollections of a uninvolved third-party decades later. Primary sources are often eye-witnesses to the events being researched, and their testimony is valued highly when piecing together an account of the past.
+In genealogy, primary sources are prized. These are documents and records that were created at or near the time of the event recorded, by people who were directly involved with the event. For example, a recording of a birth in a contemporary letter written by one of the parents carries far more evidentiary weight than the recollections of an uninvolved third-party decades later. Primary sources are often eye-witnesses to the events being researched, and their testimony is valued highly when piecing together an account of the past.
 
 Births, marriages, and deaths recorded in family bibles are prime examples of primary sources.
 
