@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+<article class="blog-post bg-white shadow p-3 mb-3">
+    <a class="post-header" href="{{ post.url }}">
+        <h2 class="post-title border-bottom mb-1">{{ post.title }}</h2>
+        <h3 class="post-date mb-3">{{ post.date | date:"%-d %B %Y" }}</h3>
+    </a>
+    {{ post.excerpt }}
+    <a href="{{ post.url }}" class="btn btn-dark">Read more</a>
+</article>
+{% endfor %}

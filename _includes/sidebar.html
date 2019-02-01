@@ -1,0 +1,25 @@
+<section>
+    <h2 class="sidebar-title border-bottom">About the Researcher</h2>
+    <img src="{{ site.baseurl }}/img/t.raymo.jpg" alt="" class="img-fluid rounded-circle w-50 float-right p-3">
+    <p><strong>Tom Raymo</strong> is a sixth-generation descendant of Mitchell Raymo (1813–1892). He has been
+        researching his family
+        history
+        since 2010.
+        He is a 2012 graduate of the <strong>Boston University Certificate Program in Genealogical Research</strong>
+        and is
+        a member of the
+        <strong>New England Historic Genealogical
+            Society,</strong> the <strong>Western Massachusetts Genealogical Society,</strong> and the <strong>Detroit
+            Society for Genealogical Research.</strong></p>
+    <p>In addition to other nerdy pursuits, Tom is also an IT Operations Manager, Web Developer, and Podcast Producer.
+        He lives on a mountain in Western Massachusetts with his wife and too many cats.</p>
+    <p>He can be contacted at <a href="mailto:tom@raymo.net">tom@raymo.net</a>.</p>
+</section>
+<nav>
+    <h2 class="sidebar-title border-bottom">Archive</h2>
+    <ul class="list-unstyled">
+        {% for post in site.posts reversed %}
+        <li><a href="{{ post.url }}">{{ post.date | date:"%-d %b %Y" }} &mdash; {{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>

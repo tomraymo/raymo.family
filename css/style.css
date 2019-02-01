@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin|Source+Sans+Pro");
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Cabin", sans-serif;
+}
+
+#mainHeader {
+    background-image: url("/img/nankin-map-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #000;
+}
+
+#mainHeader .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#mainHeader a,
+.post-header {
+    color: inherit;
+}
+
+#mainHeader a:hover,
+.post-header:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.blog-post {
+    border-top: 4px solid #ccc;
+    font-size: 1.1rem;
+}
+
+.blog-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 3px 3px 6px black;
+}
+
+.blog-subtitle {
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 6px black;
+}
+
+.post-title,
+.sidebar-title {
+    font-weight: 700;
+}
+
+.post-date {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.citation-label {
+    margin-left: 2em;
+    position: relative;
+    top: 9px;
+}
+
+.citation {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 1em;
+}
+
+.photo {
+    padding: 20px;
+    box-shadow: 0 0 3px #666;
+}
+
+.footnotes {
+    border-top: 1px solid #000;
+    font-size: 0.8rem;
+    padding-top: 0.4rem;
+}
